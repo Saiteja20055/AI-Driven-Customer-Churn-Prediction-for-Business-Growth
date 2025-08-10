@@ -1,8 +1,5 @@
 "Kindly save all the provided files in a single folder to ensure proper execution before running the code."
 
-# AI-Driven-Customer-Churn-Prediction-for-Business-Growth
-"Identify customers likely to discontinue services to enable proactive retention strategies
-
 🔮 AI-Powered Customer Churn Prediction System
 1. Problem Statement
 In the competitive business landscape, customer retention is more cost-effective than customer acquisition. Businesses across various sectors, especially in subscription-based services like telecommunications and SaaS, face the challenge of customer churn—the phenomenon where customers cease to do business with a company. Identifying which customers are at a high risk of churning is a critical business problem. This project aims to solve this by building an intelligent system that not only predicts customer churn with high accuracy but also provides actionable insights and retention strategies, empowering businesses to proactively reduce customer loss.
@@ -126,37 +123,37 @@ Python 3.7+ installed on your system.
 pip (Python package installer).
 
 Installation
-Clone the Repository:
+Create a Project Folder:
+First, create a new folder on your computer where you will store all the project files. For example, C:\Projects\Churn-Prediction.
 
-Bash
+Download and Place Files:
+Download all the project files (app.py, churn_model.pkl, etc.) and save them directly inside the folder you just created.
 
-git clone https://github.com/your-username/your-repo-name.git
-cd your-repo-name
+Important Note: For the application to work, all files must be in the same directory. The app.py script needs to be able to find the churn_model.pkl file to load the machine learning model.
+
 Install Required Libraries:
-Create a requirements.txt file with the following content:
+Create a file named requirements.txt inside your project folder with the following content:
 
 streamlit
 pandas
 scikit-learn
 numpy
 plotly
-Then, run the following command in your terminal:
+Then, open your terminal or command prompt, navigate to your project folder, and run the following command:
 
 Bash
 
 pip install -r requirements.txt
-Ensure Project Files are Present:
-Make sure the following files are in your project's root directory:
-
-app.py (The main Streamlit application code)
-
-churn_model.pkl (The saved machine learning model)
-
-customer_churn_data.csv (Optional, for reference or retraining)
-
 Running the Application
-Open your terminal and navigate to the project's root directory.
+Open your terminal and navigate to the project folder you created.
 
+Bash
+
+# Example for Windows
+cd C:\Projects\Churn-Prediction
+
+# Example for macOS/Linux
+cd /path/to/your/Churn-Prediction
 Run the Streamlit command:
 
 Bash
