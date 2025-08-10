@@ -104,11 +104,10 @@ Key capabilities:
 3. **Install Requirements**
    ```bash
    pip install -r requirements.txt
-4.**Run the Application**
+4. **Run the Application**
 ```bash
 streamlit run app.py
-
-
+```
 5.**Access the App**
 Once the command runs successfully, your browser will open automatically.
 Sign up for an account.
@@ -116,8 +115,8 @@ Start predicting customer churn instantly.
 
 📊 6.**Model Performance**
 Algorithm: Random Forest Classifier
-Accuracy: ~89%
-
+Accuracy: **~94%**
+Metrics: Precision, Recall, F1-score, Confusion Matrix
 
 
 
