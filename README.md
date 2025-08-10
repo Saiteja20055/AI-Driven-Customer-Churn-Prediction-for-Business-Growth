@@ -1,6 +1,6 @@
 "Kindly save all the provided files in a single folder to ensure proper execution before running the code."
 
-🔮 AI-Powered Customer Churn Prediction System
+#🔮 AI-Powered Customer Churn Prediction System
 1. Problem Statement
 In the competitive business landscape, customer retention is more cost-effective than customer acquisition. Businesses across various sectors, especially in subscription-based services like telecommunications and SaaS, face the challenge of customer churn—the phenomenon where customers cease to do business with a company. Identifying which customers are at a high risk of churning is a critical business problem. This project aims to solve this by building an intelligent system that not only predicts customer churn with high accuracy but also provides actionable insights and retention strategies, empowering businesses to proactively reduce customer loss.
 
